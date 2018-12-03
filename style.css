@@ -1,0 +1,61 @@
+body {
+  padding : 0.5em;
+  width : 90%;
+  margin : 0 auto;
+  background-image : url("http://t.wallpaperweb.org/wallpaper/nature/1920x1080/Best_Real_World_Full_HD_0025.jpg");
+  background-size : contain;
+  background-position : center;
+  background-repeat : no-repeat;
+  background-attachment : fixed;
+  background-size : cover;
+}
+#content {
+  overflow : auto;
+  color : lightgray;
+}
+#nav, #feature, #footer {
+  margin : 3%;
+}
+.column1 {
+  width : 100%;
+  margin : 1%;
+  margin-bottom : 1em;
+  background-color : white;
+  padding : 0.5em;
+}
+main {
+  flex : auto;
+}
+h1 {
+  color : white;
+}
+#nav, #footer {
+  background-color : lightgreen;
+  padding : 0.5em 12px;
+  margin : 0.5px;
+  padding : 10px 20px;
+}
+#nav li {
+  display : inline;
+  padding-top:10px;
+  padding-right: 0px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+p {
+  padding: 25px 50px 75px 100px;
+  background-color: #d1f8d1
+}
+h2 {
+  background-color : darkseagreen;
+}
+a{
+  color:#021f02;
+}
+
+p, h1, a {
+  font-family : 'CMUSerifRoman';
+  font-weight : normal;
+  font-style : normal;
+  font-size : 200%;
+}
